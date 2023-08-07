@@ -97,17 +97,15 @@ const Contact = () => {
                     }
                   />
                 </Input.Wrapper>
-                <Input.Wrapper
-                  withAsterisk
-                  label="Subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={(e) =>
-                    setFormData({ ...formData, subject: e.target.value })
-                  }
-                  p={"sm"}
-                >
-                  <Input placeholder="Subject" />
+                <Input.Wrapper withAsterisk label="Subject" p={"sm"}>
+                  <Input
+                    placeholder="Subject"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={(e) =>
+                      setFormData({ ...formData, subject: e.target.value })
+                    }
+                  />
                 </Input.Wrapper>
                 <Input.Wrapper withAsterisk label="Message" p={"sm"}>
                   <Input
