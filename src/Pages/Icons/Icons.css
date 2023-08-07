@@ -1,10 +1,8 @@
 .Icon_page {
-  width: 5%;
   height: 100%;
   /* background-color: red; */
   position: fixed;
-  bottom: 2rem;
-  left: 1rem;
+  bottom: 5%;
   display: flex;
   align-items: end;
   justify-content: end;
@@ -21,6 +19,8 @@
   place-items: center;
   justify-content: center;
   z-index: 999;
+  position: relative;
+  left: 12%;
 }
 
 .icon-call img,
@@ -65,5 +65,16 @@
 
   100% {
     transform: scale(0.8);
+  }
+}
+
+
+@media (max-width:768px){
+  .Icon_page {
+    width: fit-content;
+    height: 100%;
+    position: fixed;
+    bottom: 5%;
+    left: -1.5%;
   }
 }

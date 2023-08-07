@@ -19,11 +19,15 @@ import ContactImage from "../../Assets/Contact.png";
 import emailjs from "@emailjs/browser";
 import { showNotification } from "@mantine/notifications";
 import { Check } from "tabler-icons-react";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  // History
+  const History = useHistory();
 
   const [formData, setFormData] = useState({
     name: "",
@@ -55,7 +59,8 @@ const Contact = () => {
           style: { padding: "1rem", fontSize: "205px" },
         });
       })
-      .catch((err) => alert("Error"));
+      .catch((err) => alert("Error"))
+      .finally(() => window.location.reload(History.push("/contact")));
   };
   return (
     <div>

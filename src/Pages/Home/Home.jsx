@@ -30,6 +30,7 @@ import {
 
 // Count
 import CountUp from "react-countup";
+import { useMediaQuery } from "@mantine/hooks";
 
 const Home = () => {
   useEffect(() => {
@@ -125,6 +126,8 @@ const Home = () => {
       icon: <Shield className="sec5-container-grid-icon" />,
     },
   ];
+
+  const Media1100px = useMediaQuery("(max-width:1100px)");
 
   const sec6Count = [
     {
@@ -404,7 +407,7 @@ const Home = () => {
         {/* Sec4  End */}
 
         <div
-          style={{ flexDirection: "row-reverse" }}
+          style={{ flexDirection: `${Media1100px ? "column-reverse" : "row-reverse"}` }}
           className="sec4-container"
         >
           <div className="sec4-container-left">

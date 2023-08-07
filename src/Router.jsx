@@ -16,6 +16,7 @@ import Bpo from "./Pages/BPO/Bpo";
 import ScrollTop from "./Assets/ScrollTop.png";
 import Icons from "./Pages/Icons/Icons";
 import { Center } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 
 const Router = () => {
   // Window Scroll
@@ -30,6 +31,8 @@ const Router = () => {
       AddClass.classList.remove("show-icon");
     }
   });
+
+  const Media768PX = useMediaQuery("(max-width:768px)");
   return (
     <div>
       <div className="router-nav-bar">
@@ -63,11 +66,19 @@ const Router = () => {
         </div>
       </div>
 
-      <Center 
-      style={{ backgroundColor: "#c7c7c7" ,padding:"0.5rem 0"}}
-      >
-        @2023 AJ INFOTECK. All Rights Reserved.&nbsp;Designed by &nbsp;{" "}
-        <span className="title-bcg"> AJ INFOTECK</span>
+      <Center style={{ backgroundColor: "#c7c7c7", padding: "0.5rem 0" }}>
+        <div className="footer-designed" style={{textAlign:"center",display:`${Media768PX ? 'block' : 'flex'}`}}>
+          <p> @2023 AJ INFOTECK. All Rights Reserved.&nbsp;</p>
+          <p>
+            {" "}
+            Designed by &nbsp; <span className="title-bcg">
+              {" "}
+              AJ INFOTECK
+            </span>{" "}
+          </p>
+        </div>
+        {/* @2023 AJ INFOTECK. All Rights Reserved.&nbsp; {Media768PX ? <br /> : ""}
+        Designed by &nbsp; <span className="title-bcg"> AJ INFOTECK</span> */}
       </Center>
     </div>
   );
