@@ -40,12 +40,14 @@
   color: rgba(0, 0, 0, 0.647);
 }
 
-.sec1-container-right .btn {
+.sec1-container-right .btn ,
+.sec4-container-left .btn{
   background-color: #0f089f;
   transition: all 600ms ease-in-out;
 }
 
-.sec1-container-right .btn:hover {
+.sec1-container-right .btn:hover,
+.sec4-container-left .btn:hover {
   background-color: #e6166a;
   transition: all 600ms ease-in-out;
 }
@@ -154,7 +156,7 @@
 }
 
 .sec3-container-left > img {
-  width: 400px;
+  width: 600px;
   height: 400px;
 }
 
@@ -292,12 +294,14 @@
   color: rgba(0, 0, 0, 0.647);
 }
 
-.sec4-container-left .more-btn {
+.sec4-container-left .more-btn,
+.sec4-container-left .btn {
   background-color: #0f089f;
   margin-top: 1rem;
 }
 
-.sec4-container-left .more-btn:hover {
+.sec4-container-left .more-btn:hover,
+.sec4-container-left .bar:hover {
   background-color: #e6166a;
   color: white;
 }
@@ -509,10 +513,14 @@
     width: 300px;
     height: 300px;
   }
-  .sec3-container-left img {
-    width: 250px;
+  .sec3-container-left > img {
+    width: 350px;
     height: 250px;
   }
+  /* .sec3-container-left > img {
+    width: 600px;
+    height: 400px;
+  } */
 
   .sec3-container-right h2 {
     font: normal bold 25px/25px "Poppins";
@@ -535,3 +543,8 @@
 }
 
 /* Media Query End */
+
+.sec6-container-grid-count-svg {
+  color: #0f089f;
+  font-size: 50px;
+}

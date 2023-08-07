@@ -6,6 +6,7 @@ import NonVoice from "../../Assets/Bpo/BpoNonVoice.jpg";
 import DataEntry from "../../Assets/Bpo/DataEntry.jpg";
 
 const Bpo = () => {
+  window.scrollTo(0, 0);
   const DataBPO = [
     {
       title: "Voice Process",

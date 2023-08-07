@@ -61,15 +61,15 @@ const Admaking = () => {
       ],
       image: Jingles,
     },
-    {
-      title: `BPO`,
-      para: [
-        `Business Process Outsourcing (BPO) is a strategic practice in which an organization delegates specific non-core business functions or processes to external service providers. BPO has become a significant component of modern business operations, offering a range of benefits to companies across various industries.`,
-        `Business Process Outsourcing has evolved into a powerful tool for companies seeking to streamline operations, enhance productivity, and achieve cost savings. By leveraging the expertise of external service providers, businesses can focus on their core strengths and gain a competitive edge in the global marketplace. However, it is essential for companies to choose the right BPO partners, aligning their goals and values for a successful and mutually beneficial partnership
-        .`,
-      ],
-      image: BPO,
-    },
+    // {
+    //   title: `BPO`,
+    //   para: [
+    //     `Business Process Outsourcing (BPO) is a strategic practice in which an organization delegates specific non-core business functions or processes to external service providers. BPO has become a significant component of modern business operations, offering a range of benefits to companies across various industries.`,
+    //     `Business Process Outsourcing has evolved into a powerful tool for companies seeking to streamline operations, enhance productivity, and achieve cost savings. By leveraging the expertise of external service providers, businesses can focus on their core strengths and gain a competitive edge in the global marketplace. However, it is essential for companies to choose the right BPO partners, aligning their goals and values for a successful and mutually beneficial partnership
+    //     .`,
+    //   ],
+    //   image: BPO,
+    // },
   ];
 
   const [modalData, setModalData] = useState({
@@ -113,11 +113,12 @@ const Admaking = () => {
         {/* Sec 2 */}
         <div className="ad-making-sec2-container"></div>
         <Modal
-          size={"768px"}
+          size={"700px"}
           centered
           opened={opened}
           onClose={close}
           title={modalData.title}
+          className="Modal-Mantine"
         >
           <div className="modal-image">
             <img src={modalData.image} alt="img" />

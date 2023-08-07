@@ -1,0 +1,69 @@
+.Icon_page {
+  width: 5%;
+  height: 100%;
+  /* background-color: red; */
+  position: fixed;
+  bottom: 2rem;
+  left: 1rem;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.icon-call,
+.icon-whatsapp {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  place-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.icon-call img,
+.icon-whatsapp img {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  z-index: 999;
+  position: relative;
+}
+
+.icon-call::before,
+.icon-call::after,
+.icon-whatsapp::before,
+.icon-whatsapp::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  clip-path: circle();
+  background-color: rgb(118, 255, 109);
+  z-index: -1;
+  opacity: 0.7;
+  transition: all 0.5s ease-in-out;
+}
+
+.icon-call::before,
+.icon-whatsapp::before {
+  animation: pulse 2s ease-out infinite;
+}
+
+.icon-call::after,
+.icon-whatsapp::after {
+  animation: pulse 2s 1s ease-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  to {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}

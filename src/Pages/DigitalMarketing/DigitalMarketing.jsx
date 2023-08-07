@@ -13,8 +13,8 @@ import App from "../../Assets/DgMarketing/App.jpg";
 import Seo from "../../Assets/DgMarketing/Seo.jpg";
 import Email from "../../Assets/DgMarketing/Email.jpg";
 import Social from "../../Assets/DgMarketing/SocialMedia.jpg";
-import Influence from "../../Assets/DgMarketing/Influence.jpg";
-import Graphics from "../../Assets/DgMarketing/Graphics.jpg"
+import Influence from "../../Assets/Assets/Images/Influncer_marketing2.jpg";
+import Graphics from "../../Assets/DgMarketing/Graphics.jpg";
 
 const DigitalMarketing = () => {
   useEffect(() => {
@@ -122,11 +122,12 @@ const DigitalMarketing = () => {
     <div>
       <div className="dg-page">
         <Modal
-          size={"768px"}
+          size={700}
           centered
           opened={opened}
           onClose={close}
           title={modalData.title}
+          className="Modal-Mantine"
         >
           <div className="modal-image">
             <img src={modalData.image} alt="img" />

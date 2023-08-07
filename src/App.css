@@ -8,7 +8,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.active-nav {
+.active-nav,.title-bcg {
   background: linear-gradient(150deg, #0f089f, #e6166a);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -70,6 +70,10 @@
   display: block;
   transition: all 500ms ease-in-out;
   animation: smooth-slide-in 1500ms ease-in-out;
+}
+
+.notification {
+  z-index: 10001;
 }
 
 @keyframes smooth-slide-in {

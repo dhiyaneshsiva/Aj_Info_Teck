@@ -14,6 +14,8 @@ import Bpo from "./Pages/BPO/Bpo";
 
 // Images
 import ScrollTop from "./Assets/ScrollTop.png";
+import Icons from "./Pages/Icons/Icons";
+import { Center } from "@mantine/core";
 
 const Router = () => {
   // Window Scroll
@@ -54,11 +56,19 @@ const Router = () => {
         </Route>
       </Switch>
       <Footer />
+      <Icons />
       <div onClick={Scroll} className="scroll-btn-fixed">
         <div className="scroll-btn-img">
           <img src={ScrollTop} alt="Top" />
         </div>
       </div>
+
+      <Center 
+      style={{ backgroundColor: "#c7c7c7" ,padding:"0.5rem 0"}}
+      >
+        @2023 AJ INFOTECK. All Rights Reserved.&nbsp;Designed by &nbsp;{" "}
+        <span className="title-bcg"> AJ INFOTECK</span>
+      </Center>
     </div>
   );
 };

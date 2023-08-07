@@ -40,8 +40,14 @@
   padding: 2rem 0;
 }
 
+
+.Modal-Mantine{
+  z-index: 9999;
+  position: relative;
+}
+
 .modal-image {
-  width: 600px;
+  width: 500px;
   height: 500px;
   margin: auto;
 }

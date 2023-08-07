@@ -9,6 +9,7 @@ import {
   Center,
   Container,
   Textarea,
+  ThemeIcon,
 } from "@mantine/core";
 
 // Image
@@ -16,6 +17,8 @@ import ContactImage from "../../Assets/Contact.png";
 
 // Email js
 import emailjs from "@emailjs/browser";
+import { showNotification } from "@mantine/notifications";
+import { Check } from "tabler-icons-react";
 
 const Contact = () => {
   useEffect(() => {
@@ -41,7 +44,16 @@ const Contact = () => {
         "9SJu7KBkenAvvYrMp"
       )
       .then((result) => {
-        alert(result.text);
+        showNotification({
+          message: "Mail Send Successfully",
+          icon: (
+            <ThemeIcon variant="light" radius="xl" size="50px" color="#79d27e">
+              <Check color="Green" size={30} />
+            </ThemeIcon>
+          ),
+          autoClose: 2000,
+          style: { padding: "1rem", fontSize: "205px" },
+        });
       })
       .catch((err) => alert("Error"));
   };

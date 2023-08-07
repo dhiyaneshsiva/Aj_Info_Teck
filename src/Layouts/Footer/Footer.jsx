@@ -3,7 +3,7 @@ import "./Footer.css";
 import { Link, useHistory } from "react-router-dom";
 
 // Mantine COre
-import { Card, Container } from "@mantine/core";
+import { Card, Center, Container } from "@mantine/core";
 
 // Image
 import Logo from "../../Assets/Assets/Logo/Logo.png";
@@ -36,11 +36,13 @@ const Footer = () => {
               className="footer-container-grid-card"
             >
               <div>
-                <h3>About AJ Info Teck</h3>
+                <h3>About AJ InfoTeck</h3>
                 <p>
                   Dominate the Digital Landscape with AJ InfoTeck 's Expert
                   Marketing Strategies AJ infoteck : Your Gateway to Digital
                   Success Find out the key to the World
+                  <br />
+                  Contact :- +91 8122788484
                 </p>
               </div>
             </Card>
@@ -109,6 +111,19 @@ const Footer = () => {
                   <li className="footer-nav-links">
                     <Link
                       className={`link-text-none ${
+                        activeBar == "/bpo" ? "active-nav" : ""
+                      }`}
+                      onClick={() => {
+                        window.location.reload(History.push("/bpo"));
+                      }}
+                      to="/bpo"
+                    >
+                      BPO
+                    </Link>
+                  </li>
+                  <li className="footer-nav-links">
+                    <Link
+                      className={`link-text-none ${
                         activeBar == "/contact" ? "active-nav" : ""
                       }`}
                       onClick={() => {
@@ -146,7 +161,9 @@ const Footer = () => {
                 <div>
                   <h3>Address</h3>
                   <address>
-                    13/1A, STC College Road,
+                    13/1A, 2nd Floor,
+                    <br />
+                    STC College Road,
                     <br />
                     Perumal Puram,
                     <br />

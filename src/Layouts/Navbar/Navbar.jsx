@@ -3,7 +3,8 @@ import { useHistory, Link } from "react-router-dom";
 import "./Navbar.css";
 
 // Images
-import BrandLogo from "../../Assets/Assets/Logo/Logo.png";
+// import BrandLogo from "../../Assets/Assets/Logo/Logo.png";
+import BrandLogo from "../../Assets/Assets/LogoAJ.png";
 
 // Icons
 import { ChevronDown, Menu2, X } from "tabler-icons-react";
