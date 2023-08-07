@@ -408,26 +408,30 @@ const Home = () => {
           className="sec4-container"
         >
           <div className="sec4-container-left">
-            <h1>AJ infoteck : Your Gateway to Digital Success</h1>
+            <h1>AJ infoteck : BPO Services</h1>
             <p>
-              We have a deep understanding of client thoughts. We are the vision
-              of your target customer and build trust. Let us create you as a
-              brand that leaves an enduring conception. Our experts will work
-              closely with you to create engaging and shareable content that
-              connects with your audience. We know the power of social media
-              platforms and will utilize them strategically to expand your
-              brand's reach.
+              Our BPO firm provides a variety of speech process solutions to
+              assist businesses in a variety of industries. We have a staff of
+              highly qualified and experienced individuals who work hard to
+              deliver exceptional customer service, sales support, and other
+              services to our clients. We are your go-to service provider for
+              inbound and outbound call center services. Our cutting-edge
+              technologies and personalized solutions enable us to exceed
+              expectations and assist you in improving the image of your
+              company.
             </p>
             <p>
-              We know your business objectives, target market, and competition
-              to develop a comprehensive brand strategy that aligns with your
-              vision. Our strategic approach ensures that every element of your
-              brand communicates a consistent message and reinforces your core
-              values.
+              Our non-voice process solutions are intended to help you
+              streamline and digitize your business processes. We provide a
+              range of back-office and front-office support services to assist
+              you in reducing costs and optimizing operations. Email support,
+              chat support, social media management, and other non-voice process
+              services are available. We use cutting-edge technology and
+              software to provide high-quality, effective services.
             </p>
             <Button className="btn">
               <Link
-                to="/about"
+                to="/bpo"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 Learn More
