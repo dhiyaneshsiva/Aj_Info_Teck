@@ -1,0 +1,133 @@
+.nav-bar-container {
+  height: 12vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-bar-container-menu-icon {
+  display: none;
+}
+
+.nav-bar-container-left-logo {
+  width: 90px;
+  height: 90px;
+}
+
+.nav-bar-container-left-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bar-container-right-list-ul {
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-bar-container-right-list-ul li {
+  text-transform: uppercase;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.nav-bar-container-right-list-ul li:nth-child(3) {
+  position: relative;
+}
+
+.nav-bar-container-right-list-dropdown {
+  position: absolute;
+  width: 100%;
+  top: 105%;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  gap: 1rem !important;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.nav-bar-container-right-list-ul li {
+  transition: all 600ms ease-in-out;
+}
+.nav-bar-container-right-list-ul li:hover {
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  transition: all 600ms ease-in-out;
+}
+
+.link-text-none {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar-container-right-list-ul
+  li:nth-child(3):hover
+  .nav-bar-container-right-list-dropdown {
+  display: flex;
+}
+
+.display-block {
+  width: 100%;
+  left: 0%;
+  display: flex !important;
+}
+
+/* Media Query */
+
+@media (max-width: 1000px) {
+  .nav-bar-container {
+    padding: 2rem 2rem;
+  }
+  .nav-bar-container-right-list-ul {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar-container-right-list-ul {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    position: absolute;
+    padding: 2rem;
+    right: 0;
+    width: 100%;
+    left: 0%;
+    top: 100%;
+    z-index: 100;
+  }
+  .nav-bar-container-menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-bar-container-left-logo {
+    width: 70px;
+    height: 70px;
+  }
+  .nav-bar-container {
+    padding: 1rem;
+    height: 8vh;
+  }
+}
+
+/* Media Query End */

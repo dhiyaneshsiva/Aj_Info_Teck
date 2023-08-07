@@ -1,0 +1,84 @@
+/* Google Fonts Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.active-nav {
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.router-nav-bar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.scroll-btn-fixed {
+  position: fixed;
+  background-color: #261a81;
+  clip-path: circle();
+  padding: 0.7rem;
+  display: flex;
+  z-index: 12;
+  cursor: pointer;
+  bottom: 5%;
+  right: 2%;
+  box-shadow: 20px 20px 20px black;
+  display: none;
+}
+
+.scroll-btn-img {
+  z-index: 13;
+  min-width: 30px;
+  max-width: 30px;
+}
+
+.scroll-btn-img img {
+  z-index: 14;
+  width: 100%;
+}
+
+.scroll-btn-fixed:hover .scroll-btn-img {
+  transform: scale(1.2);
+}
+
+.show-icon {
+  display: block;
+  transition: all 500ms ease-in-out;
+  animation: smooth-slide-in 1500ms ease-in-out;
+}
+
+@keyframes smooth-slide-in {
+  from {
+    bottom: 100%;
+    transform: rotate(180deg);
+  }
+
+  to {
+    bottom: 5%;
+  }
+}
