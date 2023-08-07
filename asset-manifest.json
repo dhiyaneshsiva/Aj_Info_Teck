@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Aj_Info_Teck/static/css/main.10a14e78.css",
-    "main.js": "/Aj_Info_Teck/static/js/main.3c327882.js",
+    "main.css": "/Aj_Info_Teck/static/css/main.cac8d542.css",
+    "main.js": "/Aj_Info_Teck/static/js/main.c0f00716.js",
     "static/media/TeamWoek.jpg": "/Aj_Info_Teck/static/media/TeamWoek.6f20187356ca66144b14.jpg",
     "static/media/WebDevelopment.jpg": "/Aj_Info_Teck/static/media/WebDevelopment.947d2ccdf1bac5792df2.jpg",
     "static/media/Branding.jpg": "/Aj_Info_Teck/static/media/Branding.b68e59f04af712db1bec.jpg",
@@ -34,11 +34,11 @@
     "static/media/Circle.png": "/Aj_Info_Teck/static/media/Circle.f14ae2238864a33e83e9.png",
     "static/media/ScrollTop.png": "/Aj_Info_Teck/static/media/ScrollTop.c8c1cfde4305d12bf1ce.png",
     "index.html": "/Aj_Info_Teck/index.html",
-    "main.10a14e78.css.map": "/Aj_Info_Teck/static/css/main.10a14e78.css.map",
-    "main.3c327882.js.map": "/Aj_Info_Teck/static/js/main.3c327882.js.map"
+    "main.cac8d542.css.map": "/Aj_Info_Teck/static/css/main.cac8d542.css.map",
+    "main.c0f00716.js.map": "/Aj_Info_Teck/static/js/main.c0f00716.js.map"
   },
   "entrypoints": [
-    "static/css/main.10a14e78.css",
-    "static/js/main.3c327882.js"
+    "static/css/main.cac8d542.css",
+    "static/js/main.c0f00716.js"
   ]
 }
