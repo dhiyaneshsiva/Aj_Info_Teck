@@ -8,10 +8,14 @@ const Icons = () => {
   return (
     <div className="Icon_page">
       <div className="icon-call">
-        <img src={Call} alt="" />
+        <a href="tel:+91 81227 88484">
+          <img src={Call} alt="" />
+        </a>
       </div>
       <div className="icon-whatsapp">
-        <img src={WhatsApp} alt="" />
+        <a href="https://wa.me/+918122788484">
+          <img src={WhatsApp} alt="" />
+        </a>
       </div>
     </div>
   );
