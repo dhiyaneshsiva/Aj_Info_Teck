@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Aj_Info_Teck/static/css/main.6e527055.css",
+    "main.js": "/Aj_Info_Teck/static/js/main.398f90cd.js",
+    "static/media/Influence.jpg": "/Aj_Info_Teck/static/media/Influence.af90a91566815673406a.jpg",
+    "static/media/TeamWoek.jpg": "/Aj_Info_Teck/static/media/TeamWoek.6f20187356ca66144b14.jpg",
+    "static/media/WebDevelopment.jpg": "/Aj_Info_Teck/static/media/WebDevelopment.947d2ccdf1bac5792df2.jpg",
+    "static/media/Branding.jpg": "/Aj_Info_Teck/static/media/Branding.b68e59f04af712db1bec.jpg",
+    "static/media/LogoDesgin.jpg": "/Aj_Info_Teck/static/media/LogoDesgin.ec2139fea8e585a1ff08.jpg",
+    "static/media/BpoVoice.jpg": "/Aj_Info_Teck/static/media/BpoVoice.270618c6f6f8719a250c.jpg",
+    "static/media/HomePic2.jpg": "/Aj_Info_Teck/static/media/HomePic2.0a4893421f4eb80a395c.jpg",
+    "static/media/HomePic1.jpg": "/Aj_Info_Teck/static/media/HomePic1.84437258534c0cde5bc4.jpg",
+    "static/media/Graphics.jpg": "/Aj_Info_Teck/static/media/Graphics.38ae5c4d583859f41d64.jpg",
+    "static/media/SocialMedia.jpg": "/Aj_Info_Teck/static/media/SocialMedia.7fd333fc5d5a3a65c517.jpg",
+    "static/media/Email.jpg": "/Aj_Info_Teck/static/media/Email.56c4913a70e5c5e11ed5.jpg",
+    "static/media/AdMaking.jpg": "/Aj_Info_Teck/static/media/AdMaking.d6f6f304228082c51f97.jpg",
+    "static/media/Jingles.jpg": "/Aj_Info_Teck/static/media/Jingles.be57734a6662b06ae6d6.jpg",
+    "static/media/Cinema.jpg": "/Aj_Info_Teck/static/media/Cinema.2cff238b5b9061dc590e.jpg",
+    "static/media/Voice.jpg": "/Aj_Info_Teck/static/media/Voice.b6b3248da33cfb5236e9.jpg",
+    "static/media/Post.jpg": "/Aj_Info_Teck/static/media/Post.1748d5623b8474a7f4b4.jpg",
+    "static/media/VFX.jpg": "/Aj_Info_Teck/static/media/VFX.a422f9a216c89a875ca4.jpg",
+    "static/media/BPO.jpg": "/Aj_Info_Teck/static/media/BPO.4520c9297382c059d5e6.jpg",
+    "static/media/HomePic3.jpg": "/Aj_Info_Teck/static/media/HomePic3.b2a4c0f434830016df11.jpg",
+    "static/media/App.jpg": "/Aj_Info_Teck/static/media/App.62b89359d204d3717247.jpg",
+    "static/media/BpoNonVoice.jpg": "/Aj_Info_Teck/static/media/BpoNonVoice.95a1cb98227ad37ec3e7.jpg",
+    "static/media/Best.jpg": "/Aj_Info_Teck/static/media/Best.f61c7a5ff53fd254f633.jpg",
+    "static/media/Seo.jpg": "/Aj_Info_Teck/static/media/Seo.103b20aed76ec3228876.jpg",
+    "static/media/DataEntry.jpg": "/Aj_Info_Teck/static/media/DataEntry.ce508c8a661d3a32cd63.jpg",
+    "static/media/Contact.png": "/Aj_Info_Teck/static/media/Contact.6990d94c58006204e6cb.png",
+    "static/media/Logo.png": "/Aj_Info_Teck/static/media/Logo.0738b0e3106a714a033c.png",
+    "static/media/Circle.png": "/Aj_Info_Teck/static/media/Circle.f14ae2238864a33e83e9.png",
+    "static/media/ScrollTop.png": "/Aj_Info_Teck/static/media/ScrollTop.c8c1cfde4305d12bf1ce.png",
+    "index.html": "/Aj_Info_Teck/index.html",
+    "main.6e527055.css.map": "/Aj_Info_Teck/static/css/main.6e527055.css.map",
+    "main.398f90cd.js.map": "/Aj_Info_Teck/static/js/main.398f90cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e527055.css",
+    "static/js/main.398f90cd.js"
+  ]
+}
