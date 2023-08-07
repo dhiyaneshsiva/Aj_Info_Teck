@@ -22,7 +22,7 @@ const About = () => {
     {
       title: "Our History",
       para: `
-      AJ INFOTECK was established in 2022 by Senthil. From its inception, we set out on a mission to revolutionize the IT industry by providing cutting-edge solutions that cater to our clients' specific needs. Over the years, we have grown into a leading player in the market, with a diverse portfolio of successful projects and a satisfied clientele.`,
+      AJ INFOTECK was established in 2022,December. From its inception, we set out on a mission to revolutionize the IT industry by providing cutting-edge solutions that cater to our clients' specific needs. Over the years, we have grown into a leading player in the market, with a diverse portfolio of successful projects and a satisfied clientele.`,
     },
     {
       title: "Growth and Expansion",
