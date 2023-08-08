@@ -7,8 +7,9 @@ import { Card, Center, Container, Flex } from "@mantine/core";
 
 // Image
 import Logo from "../../Assets/Assets/LogoAJ.png";
-import Facebook from "../../Assets/Social_Media/2.png";
-import Instagram from "../../Assets/Social_Media/1.png";
+import Facebook from "../../Assets/Social_Media/FB.png";
+import Instagram from "../../Assets/Social_Media/Insta.png";
+import { MapPin } from "tabler-icons-react";
 
 const Footer = () => {
   const History = useHistory();
@@ -44,17 +45,17 @@ const Footer = () => {
                   Marketing Strategies. Your Gateway to Digital Success Find out
                   the key to the World
                   <br />
-                  Contact :- +91 8122788484
+                  <p>Contact :- +91 8122788484</p>
                 </p>
                 <span className="footer-social-media">
                   <a
-                    href="https://www.instagram.com/aj_infoteck/"
+                    href="https://www.facebook.com/AJinfoteckdigitalmarketing"
                     target="_blank"
                   >
-                    <img src={Facebook} alt="Facebook" /> &nbsp;
+                    <img src={Facebook} alt="Facebook" />
                   </a>
                   <a
-                    href="https://www.facebook.com/AJinfoteckdigitalmarketing"
+                    href="https://www.instagram.com/aj_infoteck/"
                     target="_blank"
                   >
                     <img src={Instagram} alt="Instagram" />
@@ -177,6 +178,7 @@ const Footer = () => {
                 <div>
                   <h3>Address</h3>
                   <address>
+                    <MapPin size={20} strokeWidth={1} color={"black"} />
                     13/1A, 2nd Floor,
                     <br />
                     STC College Road,

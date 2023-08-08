@@ -59,7 +59,17 @@ const Navbar = () => {
         <div className="nav-bar-container">
           <div className="nav-bar-container-left">
             <div className="nav-bar-container-left-logo">
-              <img src={BrandLogo} alt="Aj Info Teck" />
+              <Link
+                to="/"
+                className={`link-text-none ${
+                  activeBar == "/" ? "active-nav" : ""
+                }`}
+                onClick={() => {
+                  window.location.reload(History.push("/"));
+                }}
+              >
+                <img src={BrandLogo} alt="Aj Info Teck" />
+              </Link>
             </div>
           </div>
           <div className="nav-bar-container-right">
