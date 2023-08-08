@@ -53,7 +53,7 @@ const Home = () => {
     },
     {
       title: "Quality Products",
-      text: `Quality Products
+      text: `
       Providing secure and quality products to all your business.`,
       icon: <Code className="icons-hover-home-grid" />,
     },
@@ -269,11 +269,11 @@ const Home = () => {
           </div>
           <div className="sec1-container-right">
             <h1>
-              Dominate the Digital Landscape with AJ InfoTeck 's Expert
+              Digital Landscape with AJ InfoTeck 's Expert
               Marketing Strategies
             </h1>
             <p>
-              Let's up your Ideas with us, we are the windows to the digital
+              We are the windows to the digital
               world. We strive to enrich your business, enhance your brand
               image, and drive customer engagement and conversions. With our
               strategies and innovative approaches, we ensure your success in
@@ -367,7 +367,7 @@ const Home = () => {
         {/* Sec4  */}
         <div className="sec4-container">
           <div className="sec4-container-left">
-            <h1>AJ infoteck : Your Gateway to Digital Success</h1>
+            <h1>Your Gateway to Digital Success</h1>
             <p>
               We have a deep understanding of client thoughts. We are the vision
               of your target customer and build trust. Let us create you as a
@@ -411,7 +411,7 @@ const Home = () => {
           className="sec4-container"
         >
           <div className="sec4-container-left">
-            <h1>AJ infoteck : BPO Services</h1>
+            <h1>BPO Services</h1>
             <p>
               Our BPO firm provides a variety of speech process solutions to
               assist businesses in a variety of industries. We have a staff of

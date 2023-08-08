@@ -3,10 +3,12 @@ import "./Footer.css";
 import { Link, useHistory } from "react-router-dom";
 
 // Mantine COre
-import { Card, Center, Container } from "@mantine/core";
+import { Card, Center, Container, Flex } from "@mantine/core";
 
 // Image
-import Logo from "../../Assets/Assets/Logo/Logo.png";
+import Logo from "../../Assets/Assets/LogoAJ.png";
+import Facebook from "../../Assets/Social_Media/2.png";
+import Instagram from "../../Assets/Social_Media/1.png";
 
 const Footer = () => {
   const History = useHistory();
@@ -39,11 +41,25 @@ const Footer = () => {
                 <h3>About AJ InfoTeck</h3>
                 <p>
                   Dominate the Digital Landscape with AJ InfoTeck 's Expert
-                  Marketing Strategies AJ infoteck : Your Gateway to Digital
-                  Success Find out the key to the World
+                  Marketing Strategies. Your Gateway to Digital Success Find out
+                  the key to the World
                   <br />
                   Contact :- +91 8122788484
                 </p>
+                <span className="footer-social-media">
+                  <a
+                    href="https://www.instagram.com/aj_infoteck/"
+                    target="_blank"
+                  >
+                    <img src={Facebook} alt="Facebook" /> &nbsp;
+                  </a>
+                  <a
+                    href="https://www.facebook.com/AJinfoteckdigitalmarketing"
+                    target="_blank"
+                  >
+                    <img src={Instagram} alt="Instagram" />
+                  </a>
+                </span>
               </div>
             </Card>
             <Card
@@ -165,11 +181,9 @@ const Footer = () => {
                     <br />
                     STC College Road,
                     <br />
-                    Perumal Puram,
+                    Perumalpuram,
                     <br />
-                    Palayamkottai,
-                    <br />
-                    Tirunelveli - 627 002,
+                    Tirunelveli - 627 007,
                     <br />
                     Tamil Nadu.
                   </address>

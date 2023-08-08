@@ -74,10 +74,10 @@ const About = () => {
             <div className="about-sec1-container-left">
               <h1>
                 Your Gateway to Digital
-                Success Find out the key to the World
+                Success find out the key to the World
               </h1>
               <p>
-                Let's up your Ideas with us, we are the windows to the digital
+                We are the windows to the digital
                 world. We strive to enrich your business, enhance your brand
                 image, and drive customer engagement and conversions. With our
                 strategies and innovative approaches, we ensure your success in

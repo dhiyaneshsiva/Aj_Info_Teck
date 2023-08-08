@@ -74,7 +74,6 @@
 }
 .footer-container-grid-card:nth-child(4) {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .footer-container-grid-card:nth-child(4) div {
@@ -83,6 +82,27 @@
   gap: 1rem;
   justify-content: center;
 }
+
+.footer-social-media a:nth-child(1) img{
+  transform: scale(1.4);
+}
+.footer-social-media a img {
+  clip-path: circle();
+  background-color: white;
+}
+
+.footer-social-media {
+  cursor: pointer;
+}
+
+.footer-social-media a:nth-child(1):hover img {
+  transform: scale(1.8);
+}
+.footer-social-media a:nth-child(2):hover img {
+  transform: scale(1.4);
+}
+
+
 
 @media (max-width: 1000px) {
   .footer-container-grid {
