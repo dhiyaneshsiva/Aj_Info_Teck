@@ -6,9 +6,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
-.active-nav,.title-bcg {
+.active-nav,
+.title-bcg {
   background: linear-gradient(150deg, #0f089f, #e6166a);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
