@@ -6,7 +6,7 @@ import { Link, useHistory } from "react-router-dom";
 import { Card, Center, Container, Flex } from "@mantine/core";
 
 // Image
-import Logo from "../../Assets/Assets/LogoAJ.png";
+import Logo from "../../Assets/Assets/FooterLogo.png";
 import Facebook from "../../Assets/Social_Media/FB.png";
 import Instagram from "../../Assets/Social_Media/Insta.png";
 import { MapPin } from "tabler-icons-react";

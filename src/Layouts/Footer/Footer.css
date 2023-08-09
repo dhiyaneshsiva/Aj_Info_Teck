@@ -16,14 +16,14 @@
 }
 
 .footer-container-grid-card:nth-child(1) .footer-logo {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 150px;
+  max-height: 150px;
   margin: auto;
 }
 
 .footer-container-grid-card:nth-child(1) {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -129,6 +129,15 @@
   .footer-container-grid-card:nth-child(2),
   .footer-container-grid-card:nth-child(3) {
     justify-content: flex-start;
+  }
+
+  .footer-container-grid-card:nth-child(1) .footer-logo {
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    justify-content: baseline;
+    margin-left:0 ;
+    margin-bottom: 0;
   }
 }
 
