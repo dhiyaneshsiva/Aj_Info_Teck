@@ -8,7 +8,6 @@ import {
   Button,
   Center,
   Container,
-  Textarea,
   ThemeIcon,
 } from "@mantine/core";
 

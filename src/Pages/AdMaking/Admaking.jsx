@@ -2,15 +2,12 @@ import React, { useEffect, useState } from "react";
 import "./Admaking.css";
 
 // Images
-import Circle from "../../Assets/Circle.png";
-
 import AdmakingImage from "../../Assets/AdMaking/AdMaking.jpg";
 import Cinema from "../../Assets/AdMaking/Cinema.jpg";
 import VFX from "../../Assets/AdMaking/VFX.jpg";
 import PostProduction from "../../Assets/AdMaking/Post.jpg";
 import Voice from "../../Assets/AdMaking/Voice.jpg";
 import Jingles from "../../Assets/AdMaking/Jingles.jpg";
-import BPO from "../../Assets/AdMaking/BPO.jpg";
 
 // Mantine Core
 import { Card, Center, Modal, Button } from "@mantine/core";
@@ -61,15 +58,6 @@ const Admaking = () => {
       ],
       image: Jingles,
     },
-    // {
-    //   title: `BPO`,
-    //   para: [
-    //     `Business Process Outsourcing (BPO) is a strategic practice in which an organization delegates specific non-core business functions or processes to external service providers. BPO has become a significant component of modern business operations, offering a range of benefits to companies across various industries.`,
-    //     `Business Process Outsourcing has evolved into a powerful tool for companies seeking to streamline operations, enhance productivity, and achieve cost savings. By leveraging the expertise of external service providers, businesses can focus on their core strengths and gain a competitive edge in the global marketplace. However, it is essential for companies to choose the right BPO partners, aligning their goals and values for a successful and mutually beneficial partnership
-    //     .`,
-    //   ],
-    //   image: BPO,
-    // },
   ];
 
   const [modalData, setModalData] = useState({

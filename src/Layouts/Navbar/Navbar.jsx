@@ -3,11 +3,10 @@ import { useHistory, Link } from "react-router-dom";
 import "./Navbar.css";
 
 // Images
-// import BrandLogo from "../../Assets/Assets/Logo/Logo.png";
 import BrandLogo from "../../Assets/Assets/LogoAJ.png";
 
 // Icons
-import { ChevronDown, Menu2, X } from "tabler-icons-react";
+import {  Menu2, X } from "tabler-icons-react";
 import { useMediaQuery } from "@mantine/hooks";
 
 const Navbar = () => {
@@ -113,15 +112,6 @@ const Navbar = () => {
                   >
                     DIGITAL MARKETING
                   </Link>
-                  {/* <ChevronDown strokeWidth={1} /> */}
-                  {/* <ul className="nav-bar-container-right-list-dropdown">
-                    <li className="nav-bar-container-right-ul-li">Social Media Marketing</li>
-                    <li className="nav-bar-container-right-ul-li">Logo designing</li>
-                    <li className="nav-bar-container-right-ul-li">Website Development</li>
-                    <li className="nav-bar-container-right-ul-li">Application Development</li>
-                    <li className="nav-bar-container-right-ul-li">SEO</li>
-                    <li className="nav-bar-container-right-ul-li">EMAIL marketing</li>
-                  </ul>*/}
                 </li>
                 <li>
                   <Link

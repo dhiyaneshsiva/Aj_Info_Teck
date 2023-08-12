@@ -38,7 +38,6 @@ const Home = () => {
   }, []);
 
   // USeState
-  const [count, setCount] = useState(0);
   const [isTrue, setIsTrue] = useState(false);
 
   //   Animation init
