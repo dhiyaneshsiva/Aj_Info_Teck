@@ -77,8 +77,6 @@ const Router = () => {
             </span>{" "}
           </p>
         </div>
-        {/* @2023 AJ INFOTECK. All Rights Reserved.&nbsp; {Media768PX ? <br /> : ""}
-        Designed by &nbsp; <span className="title-bcg"> AJ INFOTECK</span> */}
       </Center>
     </div>
   );

@@ -3,7 +3,7 @@ import "./Footer.css";
 import { Link, useHistory } from "react-router-dom";
 
 // Mantine COre
-import { Card, Center, Container, Flex } from "@mantine/core";
+import { Card, Container } from "@mantine/core";
 
 // Image
 import Logo from "../../Assets/Assets/FooterLogo.png";
@@ -21,10 +21,6 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-container-grid">
             <Card
-              //   shadow="sm"
-              //   padding="lg"
-              //   radius="md"
-              //   withBorder
               className="footer-container-grid-card"
             >
               <div className="footer-logo">
@@ -32,10 +28,6 @@ const Footer = () => {
               </div>
             </Card>
             <Card
-              //   shadow="sm"
-              //   padding="lg"
-              //   radius="md"
-              //   withBorder
               className="footer-container-grid-card"
             >
               <div>
@@ -64,10 +56,6 @@ const Footer = () => {
               </div>
             </Card>
             <Card
-              //   shadow="sm"
-              //   padding="lg"
-              //   radius="md"
-              //   withBorder
               className="footer-container-grid-card"
             >
               <div>
@@ -156,10 +144,6 @@ const Footer = () => {
             </Card>
             {activeBar !== "/contact" ? (
               <Card
-                //   shadow="sm"
-                //   padding="lg"
-                //   radius="md"
-                //   withBorder
                 className="footer-container-grid-card"
               >
                 <Container size={"100%"} style={{ padding: "2rem 1rem" }}>

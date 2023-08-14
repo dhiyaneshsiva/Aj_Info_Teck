@@ -145,15 +145,6 @@ const About = () => {
               <img src={Circle} alt="Circle" className="rotate" />
               <img src={Main} alt="About2" className="we-are-best" />
             </div>
-            {/* <div className="sec1-container-left">
-            <div className="sec1-container-left-main-image">
-              <img
-                src={Main}
-                alt="Img"
-                className="sec1-container-left-main-image-main"
-              />
-            </div>
-          </div> */}
           </div>
           <div className="about-sec3-container-right">
             <div className="about-sec3-container-right-grid">
