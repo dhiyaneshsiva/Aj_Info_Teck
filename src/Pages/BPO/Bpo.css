@@ -1,3 +1,9 @@
+.bpo-page {
+  width: 80%;
+  margin: auto;
+}
+
+
 .bpo-container-flex {
   display: flex;
   gap: 2rem;
@@ -43,5 +49,8 @@
   }
   .bpo-container-flex:nth-child(2) {
     flex-direction: column;
+  }
+  .bpo-page {
+    width: 90%;
   }
 }
